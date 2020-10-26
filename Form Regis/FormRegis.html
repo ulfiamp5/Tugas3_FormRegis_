@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="proses.php" method="GET | POST">
+        <fieldset style="background-color: azure;">
+        <legend>Pendaftaran Mahasiswa Baru</legend>
+        <div>
+            <label>Nama Lengkap</label>
+            <div>
+                <input type="text" name="nama" value="" size="30" />
+            </div>
+        </div>
+        <div>
+            <label>Jenis Kelamin</label>
+           <div>
+               <input type="radio" name="jk" value="L" checked /> Laki-Laki
+               <input type="radio" name="jk" value="P" checked /> Perempuan
+           </div> 
+        </div>
+        <div>
+            <label>Tempat Lahir</label>
+            <input type="text" name="tempat" />
+            <label for="start_date">Tanggal Lahir</label>
+            <input type="date" name="Tanggal_Lahir" id="Tanggal_Lahir" />
+            </select>
+
+        </div>
+        <div>
+            <label>Alamat Rumah</label>
+            <input type="text" name="alamat" size="70"/>
+            <br><br>
+            <label>Domisili</label>
+            <input type="text" name="domisili" size="70" />
+        </div>
+        <div>
+            <label>Asal Sekolah</label>
+            <input type="text name" name="Sekolah" />
+        </div>
+        <div>
+            <label>Status</label>
+            <select name="status">
+                <option value="">---pilih---</option>
+                <option value="Belum Menikah">Belum Menikah</option>
+                <option value="Sudah Menikah">Sudah Menikah</option>
+                <option value="Karyawan">Karyawan</option>
+            </select>
+        </div>
+        <div>
+            <label>No.Handphone</label>
+            <input type="nomor" name="nomor" />
+        </div>
+        <div>
+            <label>E-mail</label>
+            <input type="email" name="email" />
+        </div>
+        <div>
+            <label>Pilih Program Studi</label>
+            <select name="program studi">
+                <option value="">---pilih---</option>
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Teknik Elektro">Teknik Elekro</option>
+                <option value="Teknik Kimia">Teknik Kimia</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="simpan" name="proses" />
+        </div>
+        </form>
+    </body>
+</html>
